@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1</title>
+
+    <script type="text/javascript" src="Includes/jquery-3.7.1.min.js"></script>
+
+
+</head>
+<body>
+
+    <div class="galería">
+        <img id="imagen1" src="Imagenes/imagen base.jpg"  alt="El grito">
+        <p class="p1">p1</p>
+        <h1 class="1">movimiento</h1>
+        <img id="imagen2" src="Imagenes/imagen base.jpg" alt="Guernica">
+        <p class="p2">p2</p>
+        <h1 class="2">movimiento</h1>
+        <img id="imagen3" src="Imagenes/imagen base.jpg" alt="Mona Lisa">
+        <p class="p3">p3</p>
+        <h1 class="3">movimiento</h1>
+        <img id="imagen4" src="Imagenes/imagen base.jpg" alt="El Beso">
+        <p class="p4">p4</p>
+        <h1 class="4">movimiento</h1>
+        <img id="imagen5" src="Imagenes/imagen base.jpg" alt="La noche estrellada">
+        <p class="p5">p5</p>
+        <h1 class="5">movimiento</h1>
+        <img id="imagen6" src="Imagenes/imagen base.jpg" alt="La joven de la perla">
+        <p class="p6">p6</p>
+        <h1 class="6">movimiento</h1>
+        <img id="imagen7" src="Imagenes/imagen base.jpg" alt="La ultima cena">
+        <p class="p7">p7</p>
+        <h1 class="7">movimiento</h1>
+        <img id="imagen8" src="Imagenes/imagen base.jpg" alt="El nacimiento de venus">
+        <p class="p8">p8</p>
+        <h1 class="8">movimiento</h1>
+        <img id="imagen9" src="Imagenes/imagen base.jpg" alt="Las meninas">
+        <p class="p9">p9</p>
+        <h1 class="9">movimiento</h1>
+        <img id="imagen10" src="Imagenes/imagen base.jpg"alt="Creación de Adán">
+        <p class="p10">p10</p>
+        <h1 class="10">movimiento</h1>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            alert("JQuery Cargado con éxito!");
+        });
+        $("div").css({"text-align":"center","background-color":"black","font-family":"helvetica"});
+        $("#imagen1").attr("src","Imagenes/el grito.jpg");
+        $("#imagen2").attr("src","Imagenes/Guernica.jpg");
+        $("#imagen3").attr("src","Imagenes/Mona lisa.jpg");
+        $("#imagen4").attr("src","Imagenes/el beso.jpg");
+        $("#imagen5").attr("src","Imagenes/estrellada.jpg");
+        $("#imagen6").attr("src","Imagenes/la joven de la perla.jpg");
+        $("#imagen7").attr("src","Imagenes/ultima cena.jpg");
+        $("#imagen8").attr("src","Imagenes/el nacimiento de venus.jpg");
+        $("#imagen9").attr("src","Imagenes/las meninas.jpg");
+        $("#imagen10").attr("src","Imagenes/creacion de adan.jpg");
+        $(".p1").text("Edvard Munch (1983)");
+        $(".p2").text("Pablo Picasso (1937)");
+        $(".p3").text("Leonardo da Vinci (1503 - 1519)");
+        $(".p4").text("Gustav Klimt (1907 - 1908)");
+        $(".p5").text("Vincent van Gogh (1889)");
+        $(".p6").text("Johannes Vermeer (1665)");
+        $(".p7").text("Leonador da Vinci (1495 - 1498)");
+        $(".p8").text("Sandro Botticelli (1485)");
+        $(".p9").text("Diego Velázquez (1656)");
+        $(".p10").text("Miguel Ángel (1508 - 1512)");
+        $(".1").text("Expresionista");
+        $(".2").text("Cubismo - Surrealismo");
+        $(".3").text("Renacimiento");
+        $(".4").text("Simbolismo");
+        $(".5").text("Posimpresionismo - Arte moderno");
+        $(".6").text("Tronie");
+        $(".7").text("Renacimiento");
+        $(".8").text("Renacimiento");
+        $(".9").text("Barroco");
+        $(".10").text("Renacimiento");
+        $("p").css({"text-align":"center","background-color":"pink","margin-left":200,
+        "margin-right":200,"font-weight":"bold"});
+        $("h1").css({"text-align":"center","background-color":"pink","margin-left":200,
+        "margin-right":200,"font-weight":"bold","margin-top":-17});
+
+   </script>
+</body>
+</html>
